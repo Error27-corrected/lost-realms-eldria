@@ -1,0 +1,17 @@
+# The Lost Realms of Eldria - Text-Based Adventure Game
+# Requirements file
+
+# Python version requirement (for f-string support and type hints)
+python>=3.6
+
+# No external dependencies required - this game uses only Python standard library
+# The following modules are used from the standard library:
+# - time: For text typing effects and delays
+# - random: For potential future randomization features
+# - sys: For system exit and error handling
+# - typing: For type hints (optional but recommended for development)
+
+# Optional: For development and testing
+# pytest>=6.0  # Uncomment if you want to run automated tests
+# black>=21.0  # Uncomment if you want code formatting
+# flake8>=3.8  # Uncomment if you want linting
